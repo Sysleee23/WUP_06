@@ -100,11 +100,13 @@ fisher.test(table2)
 #fisherXY(mydata$race,mydata$cappun)
 ```
 
+The p-value for the Chi- squared test was 0.000001 this is quite small so we reject the null hypothisis. 
+
 ```{r}
 fisherXY(mydata$cappun,mydata$race)
 ```
  
 
 # Discussion and Conclusion
-
+yes attitude toward capitol punishment is depending on race. To prove this we used a barplot, summary is a cross-table, interfence is chi-squared test to determine this. After examining the plots we Reject the null hypothisis this is because we see that white people and other are for capital punishment then black people are.
 <!--Discussion and conclusion here.  If you found a relationship be sure to consider whether the relationship occurs because one of the variavbles causes the other, or whether they perhasps are related for some other reason.  Watch the chapter 6 videos from the GeorgeTown videos collection.!-->
