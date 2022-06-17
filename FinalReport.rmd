@@ -64,6 +64,7 @@ basicCC <- ggplot(dd2,aes(x=race,y=prcnt*100,fill=cappun))
 basicCC + geom_bar(stat="identity", position = "dodge")
 ```
 
+From this plot is  it apparent that the white race is more apposed to corperal punishment. Also based on the plot black people are apposed to corpral punishment and other people favor in corperal punishment as well.
 
 
 ### Numerical Descriptive Results
@@ -81,6 +82,7 @@ rowPerc(table2)
 colPerc(table2)
 ```
 
+From the numerrical summery we see that the white people are about 60/30 60 are the people who are for capital punishment and 30 are for those who are apposed to capital punishment. In the black section we can see that they are about 50/50 on who is appoosed and who is for capital punishment. In the other section they are also about 50/50 on who is for capital punishment and who isnt for capital punishment.
 
 ## Inferential Results
 
